@@ -116,14 +116,43 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   .card,
   .footer {
     border-color: #222;
   }
+
   .code {
     background: #111;
   }
+
   .logo img {
     filter: invert(1);
   }
+}
+
+.welcome {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 600;
+  padding-top: 20px;
+  background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+
+.navbar {
+  font-size: 20px;
+  padding: 8px;
+  float: left;
+}
+.about{
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #3c9a5d 45%, #ee2bb0);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
