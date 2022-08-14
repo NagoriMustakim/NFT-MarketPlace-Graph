@@ -6,18 +6,18 @@ import { ConnectButton } from "web3uikit"
 const Header = () => {
     return (
         <div>
-            <ul>
+            <ul className="p-5 border-b-2 flex flex-row justify-between items-center">
                 <Link href="/">
                     <a className={styles.navbar}>Home</a>
                 </Link>
-                <Link href="/aboutus">
-                    <a className={styles.navbar}>About Us</a>
+                <Link href="/sellNFT">
+                    <a className={styles.navbar}>sell NFT</a>
                 </Link>
                 <Link href="/blog">
                     <a className={styles.navbar}>Blog</a>
                 </Link>
-                <Link href="/contactus">
-                    <a className={styles.navbar}>contacting...</a>
+                <Link href="/aboutus">
+                    <a className={styles.navbar}>aboutus</a>
                 </Link>
                 <ConnectButton></ConnectButton>
             </ul>

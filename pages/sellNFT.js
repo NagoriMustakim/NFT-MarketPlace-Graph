@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 const contactus = () => {
     return (
         <div>  <h1 className={styles.about}>
-            contact us
+             sell nft..
         </h1></div>
     )
 }
